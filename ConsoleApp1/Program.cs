@@ -166,13 +166,13 @@ namespace ConsoleApp1
             ArtyomArtemovNumber = ContractNumbers.ArtyomArtemov;
             Console.WriteLine("Номер договора Дмитрия Дмитриева - {0}", (long)ArtyomArtemovNumber);
 
-            Agency AmericaTour;
+            Agency AmericaTour; // вызов перечисления с данными о компании
             AmericaTour.name = "America Tour";
             AmericaTour.adress = "Пушкина 48";
             AmericaTour.telephone = 228472;
             AmericaTour.AgencyInfo();
 
-            Trdata AviaTourFlight;
+            Trdata AviaTourFlight; // вызов перечисления с данными о перевозке
             AviaTourFlight.date = "28.03.2021";
             AviaTourFlight.time = "10:00";
             AviaTourFlight.trtype = "Самолетом";
