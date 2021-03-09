@@ -18,8 +18,8 @@ namespace ConsoleApp1
     }
     class Tourist
     {
-        public string firstname; //имя
-        public string lastname; //имя
+        public string firstname; // имя
+        public string lastname; // фамилия
         public long telephone; // телефон
         public int contractnumber; // номер контракта
 
@@ -44,7 +44,7 @@ namespace ConsoleApp1
     }
     class Manager
     {
-        public string firstname; //имя
+        public string firstname; //имя 
         public string lastname; // фамилия
         public long telephone; // телефон
         public long faxnumber; // номер факса
